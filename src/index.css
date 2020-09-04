@@ -1,5 +1,14 @@
+@font-face{
+  src: url('./assets/fonts/FontsFree-Net-Glitten.ttf');
+  font-family: forHeaders;
+}
+:root{
+  --header: forHeaders;
+}
 body {
   margin: 0;
+  height: 100vh;
+  overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
